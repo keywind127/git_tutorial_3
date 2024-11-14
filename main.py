@@ -11,7 +11,9 @@ class Kevin(Person):
 # river 俊穎
 
 # smith 君偉
-
+class Smith(Person):
+    def greet(self) -> None:
+        print("Hello, my name is 君偉")
 # david 昕哲
 
 if __name__ == "__main__":
@@ -22,6 +24,7 @@ if __name__ == "__main__":
     # river 俊穎
 
     # smith 君偉
+    Smith().greet()
 
     # david 昕哲
 
