@@ -9,7 +9,9 @@ class Kevin(Person):
         print("Hello, my name is 向廷")
 
 # river 俊穎
-
+class River(Person):
+    def greet(self) -> None:
+        print("Hello, my name is 俊穎")
 # smith 君偉
 
 # david 昕哲
